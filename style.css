@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display";
+  background-color: blue;
+  background: url(./images/pattern-background-desktop.svg) hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+.container{
+  width: 330px;
+  height: 490px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-top: 170px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 10px 10px hsl(224, 23%, 55%);
+}
+.container::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: -00px;
+  left: 0;
+  background: url(./images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ord{
+  font-weight: 900;
+  margin: 15px;
+}
+.sum, .pricing, .pay{
+  margin: 10px 0;
+}
+p{
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+.pricing{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.cnt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pay{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  background-color:  hsl(245, 75%, 52%);
+  box-shadow: 0 10px 10px hsl(224, 23%, 55%);
+  transition: padding .2s ease-in;
+}
+.pay:hover{
+  padding: 12px;
+}
+img{
+  margin-right: 10px;
+}
+.plan{
+  font-weight: 700;
+  margin: 5px;
+}
+.change{
+  color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  font-weight: 500;
+}
+.cancel{
+  color: black;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+a{
+  transition: font-size 0.2s ease-in;
+}
+a:hover{
+  font-size: 17px;
+}
+.pay, .change, .cancel{
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .container{
+    width: 90%;
+    height: 490px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-top: 170px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 10px 10px hsl(224, 23%, 55%);
+  }
+  .container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: -00px;
+    left: 0;
+    background: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ord{
+    font-weight: 900;
+    margin: 15px;
+  }
+  .sum, .pricing, .pay{
+    margin: 10px 0;
+  }
+  p{
+    font-size: 16px;
+  }
+  .pricing{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .cnt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .pay{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    background-color:  hsl(245, 75%, 52%);
+    box-shadow: 0 10px 10px hsl(224, 23%, 55%);
+    transition: padding .2s ease-in;
+}
+.pay:hover{
+  padding: 12px;
+}
+  img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .plan{
+    font-weight: 700;
+    margin: 5px;
+  }
+  .change{
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .cancel{
+    color: black;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: 500;
+  }
+  a{
+  transition: font-size 0.2s ease-in;
+}
+a:hover{
+  font-size: 17px;
+}
+  .pay, .change, .cancel{
+    cursor: pointer;
+  }
+}
