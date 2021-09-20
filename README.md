@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ https://www.frontendmentor.io/solutions/mobile-first-solution-to-html-css-challenge-tMOrGipoO]  (https://www.frontendmentor.io/solutions/mobile-first-solution-to-html-css-challenge-tMOrGipoO)
+- Solution URL: [ https://www.frontendmentor.io/solutions/mobile-first-solution-to-html-css-challenge-tMOrGipoO](https://www.frontendmentor.io/solutions/mobile-first-solution-to-html-css-challenge-tMOrGipoO)
 - Live Site URL: [https://frontend-mentor-solution-one.vercel.app/#](https://frontend-mentor-solution-one.vercel.app/#)
 
 ## My process
